@@ -258,15 +258,15 @@ public class Fnhap extends javax.swing.JFrame {
             float tn = Float.parseFloat(txt_thamnien.getText().toString().trim());
             float lcb = Float.parseFloat(txt_luongcoban.getText().toString().trim());
 
-            //tạo một đối tượng nhân viên
-            NhanVien newnv = new NhanVien(ht, ns, dc, gt, pb, hsl, tn, lcb);
-            dsnhanvien.add(newnv);
-
             if (hsl <= 0 || tn < 0 || lcb <= 0) {
                 javax.swing.JOptionPane.showMessageDialog(this,
                         "Hệ số lương và lương cơ bản phải > 0\nThâm niên phải >= 0");
                 return;
             }
+             //tạo một đối tượng nhân viên
+            NhanVien newnv = new NhanVien(ht, ns, dc, gt, pb, hsl, tn, lcb);
+            dsnhanvien.add(newnv);
+            
             javax.swing.JOptionPane.showMessageDialog(this, "nhân viên đã được thêm là: " + newnv.hienthinhanvien());
             System.err.println("thêm nhân viên thành công ");
             System.err.println("nhân viên là" + newnv.hienthinhanvien());
