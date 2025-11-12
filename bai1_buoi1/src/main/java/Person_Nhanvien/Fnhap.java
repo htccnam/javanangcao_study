@@ -282,7 +282,7 @@ public class Fnhap extends javax.swing.JFrame {
         //tạo file 
         try {
             File file = new File("C:/file/nhanvien.dat");
-            FileWriter fw = new FileWriter(file);
+            FileWriter fw = new FileWriter(file,true);
             BufferedWriter bw = new BufferedWriter(fw);
 
             if (dsnhanvien.isEmpty()) {
