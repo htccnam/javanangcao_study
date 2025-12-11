@@ -16,12 +16,13 @@ import view.NhanvienView;
  * @author Admin
  */
 public class NhanvienCotroller {
-    NhanvienView v=null;
-    int selectedRow =-1;
+
+    NhanvienView v = null;
+    int selectedRow = -1;
 
     public NhanvienCotroller() {
-        v= new NhanvienView();
-        
+        v = new NhanvienView();
+
         v.addAddListener(new AddAction());
         v.addEditListener(new EditAction());
         v.addDeleteListener(new DeleteAction());
@@ -30,6 +31,7 @@ public class NhanvienCotroller {
         v.model.fireTableDataChanged();
         v.setVisible(true);
     }
+
     //Lấy dữ liệu từ form
     public Nhanvien getEmployeeFromView() {
         String gt = v.rdNam.isSelected() ? "Nam" : "Nữ";
@@ -55,7 +57,8 @@ public class NhanvienCotroller {
             nv.getThamNien(), nv.getLuongCoBan()
         });
     }
-        // Sửa nhân viên
+    // Sửa nhân viên
+
     public void editNhanvien() {
         if (selectedRow >= 0) {
             Nhanvien nv = getEmployeeFromView();
@@ -70,6 +73,7 @@ public class NhanvienCotroller {
             v.model.setValueAt(nv.getLuongCoBan(), selectedRow, 7);
         }
     }
+
     // Xóa nhân viên
     public void deleteNhanvien() {
         if (selectedRow >= 0) {
@@ -81,6 +85,7 @@ public class NhanvienCotroller {
     public void saveNhanvien() {
         editNhanvien();
     }
+
     // Load dữ liệu khi click vào bảng
     public void loadSelectedRow() {
         v.txtHoTen.setText(v.model.getValueAt(selectedRow, 0).toString());
@@ -99,7 +104,9 @@ public class NhanvienCotroller {
         v.txtThamNien.setText(v.model.getValueAt(selectedRow, 6).toString());
         v.txtLuongCoBan.setText(v.model.getValueAt(selectedRow, 7).toString());
     }
-        public class AddAction implements ActionListener {
+
+    public class AddAction implements ActionListener {
+
         @Override
         public void actionPerformed(ActionEvent e) {
             addNhanvien();
@@ -107,6 +114,7 @@ public class NhanvienCotroller {
     }
 
     public class EditAction implements ActionListener {
+
         @Override
         public void actionPerformed(ActionEvent e) {
             editNhanvien();
@@ -114,6 +122,7 @@ public class NhanvienCotroller {
     }
 
     public class DeleteAction implements ActionListener {
+
         @Override
         public void actionPerformed(ActionEvent e) {
             deleteNhanvien();
@@ -121,6 +130,7 @@ public class NhanvienCotroller {
     }
 
     public class SaveAction implements ActionListener {
+
         @Override
         public void actionPerformed(ActionEvent e) {
             saveNhanvien();
@@ -128,6 +138,7 @@ public class NhanvienCotroller {
     }
 
     public class TableClickAction extends MouseAdapter {
+
         @Override
         public void mouseClicked(MouseEvent e) {
             selectedRow = v.table.getSelectedRow();

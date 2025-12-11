@@ -263,10 +263,10 @@ public class Fnhap extends javax.swing.JFrame {
                         "Hệ số lương và lương cơ bản phải > 0\nThâm niên phải >= 0");
                 return;
             }
-             //tạo một đối tượng nhân viên
+            //tạo một đối tượng nhân viên
             NhanVien newnv = new NhanVien(ht, ns, dc, gt, pb, hsl, tn, lcb);
             dsnhanvien.add(newnv);
-            
+
             javax.swing.JOptionPane.showMessageDialog(this, "nhân viên đã được thêm là: " + newnv.hienthinhanvien());
             System.err.println("thêm nhân viên thành công ");
             System.err.println("nhân viên là" + newnv.hienthinhanvien());
@@ -282,7 +282,7 @@ public class Fnhap extends javax.swing.JFrame {
         //tạo file 
         try {
             File file = new File("C:/file/nhanvien.dat");
-            FileWriter fw = new FileWriter(file,true);
+            FileWriter fw = new FileWriter(file, true);
             BufferedWriter bw = new BufferedWriter(fw);
 
             if (dsnhanvien.isEmpty()) {

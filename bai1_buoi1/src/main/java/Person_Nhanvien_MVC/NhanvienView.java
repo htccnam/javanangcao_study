@@ -22,6 +22,7 @@ import javax.swing.table.DefaultTableModel;
  * @author Admin
  */
 public class NhanvienView extends JFrame {
+
     public JTextField txtHoTen, txtNgaySinh, txtDiaChi, txtHeSoLuong, txtThamNien, txtLuongCoBan;
     public JRadioButton rdNam, rdNu;
     public JComboBox<String> cbPhongBan;
@@ -36,47 +37,47 @@ public class NhanvienView extends JFrame {
 
     private void initComponents() {
         setTitle("Quan Ly Nhan Vien");
-        setSize(720,650);
+        setSize(720, 650);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
-        
-        JLabel lbHT= new JLabel("Ho Ten ");
-        lbHT.setBounds(150,30,100,30);
+
+        JLabel lbHT = new JLabel("Ho Ten ");
+        lbHT.setBounds(150, 30, 100, 30);
         add(lbHT);
-        
-        JLabel lbNS=new JLabel("Ngay Sinh ");
-        lbNS.setBounds(150,70,100,30);
+
+        JLabel lbNS = new JLabel("Ngay Sinh ");
+        lbNS.setBounds(150, 70, 100, 30);
         add(lbNS);
-        
-        JLabel lbDC =new JLabel("Dia Chi ");
-        lbDC.setBounds(150,110,100,30);
+
+        JLabel lbDC = new JLabel("Dia Chi ");
+        lbDC.setBounds(150, 110, 100, 30);
         add(lbDC);
-        
-        JLabel lbGT =new JLabel("Gioi Tinh ");
-        lbGT.setBounds(150,150,100,30);
+
+        JLabel lbGT = new JLabel("Gioi Tinh ");
+        lbGT.setBounds(150, 150, 100, 30);
         add(lbGT);
-        
-        JLabel lbPB =new JLabel("Phong Ban ");
-        lbPB.setBounds(150,190,100,30);
+
+        JLabel lbPB = new JLabel("Phong Ban ");
+        lbPB.setBounds(150, 190, 100, 30);
         add(lbPB);
-        
-        JLabel lbHSL=new JLabel("He So Luong ");
-        lbHSL.setBounds(150,230,100,30);
+
+        JLabel lbHSL = new JLabel("He So Luong ");
+        lbHSL.setBounds(150, 230, 100, 30);
         add(lbHSL);
-        
-        JLabel lbTN= new JLabel("Tham Nien ");
-        lbTN.setBounds(150,270,100,30);
+
+        JLabel lbTN = new JLabel("Tham Nien ");
+        lbTN.setBounds(150, 270, 100, 30);
         add(lbTN);
-        
-        JLabel lbLCB=new JLabel("Luong Co Ban ");
-        lbLCB.setBounds(150,310,100,30);
+
+        JLabel lbLCB = new JLabel("Luong Co Ban ");
+        lbLCB.setBounds(150, 310, 100, 30);
         add(lbLCB);
-        
+
         txtHoTen = new JTextField();
-        txtHoTen.setBounds(300,30,170,30);
+        txtHoTen.setBounds(300, 30, 170, 30);
         add(txtHoTen);
-        
-                txtNgaySinh = new JTextField();
+
+        txtNgaySinh = new JTextField();
         txtNgaySinh.setBounds(300, 70, 170, 30);
         add(txtNgaySinh);
 
@@ -143,25 +144,25 @@ public class NhanvienView extends JFrame {
         add(sp);
 
     }
-    
-    public void addAddListener(ActionListener l){
+
+    public void addAddListener(ActionListener l) {
         btnThem.addActionListener(l);
     }
-    
-    public void addEditListener(ActionListener l){
+
+    public void addEditListener(ActionListener l) {
         btnSua.addActionListener(l);
     }
-    
-    public void addDeleteListener(ActionListener l){
+
+    public void addDeleteListener(ActionListener l) {
         btnXoa.addActionListener(l);
     }
-    
-    public void addSaveListener(ActionListener l){
+
+    public void addSaveListener(ActionListener l) {
         btnLuu.addActionListener(l);
     }
-    
-    public void addTableClickListener(MouseAdapter l){
+
+    public void addTableClickListener(MouseAdapter l) {
         table.addMouseListener(l);
     }
-    
+
 }
