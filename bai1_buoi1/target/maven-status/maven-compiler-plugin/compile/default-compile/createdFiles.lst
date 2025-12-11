@@ -12,6 +12,7 @@ Person_Nhanvien\Ftable_hienthi.class
 demologin_trenlop_sudunglopthucthe\model_login.class
 createFormByCode\createFormByCode.class
 Person_Student_lession\Sinhvien.class
+baitapketnoidatabase\ketnoi.class
 demologin_trenlop_chucnangkhac\controller_login$check_login_action.class
 Person_Nhanvien\Fnhap$4.class
 createFormByCode\EmployeeManagementForm$1.class
