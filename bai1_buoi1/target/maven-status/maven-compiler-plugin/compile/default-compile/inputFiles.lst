@@ -1,5 +1,8 @@
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\demologin_trenlop_sudunglopthucthe\model_login.java
+C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\menu\model\Person.java
+C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\menu\controllers\SinhVienController.java
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\demologin_trenlop_chucnangkhac\controller_login.java
+C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\menu\controllers\NhanVienController.java
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\Person_Nhanvien_MVC\NhanvienView.java
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\createFormByCode\EmployeeManagementForm.java
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\Person_Student_lession\formdangnhap.java
@@ -7,7 +10,10 @@ C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_bu
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\Person_Student_lession\Sinhvien.java
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\Person_Nhanvien\Bai1_buoi1.java
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\Person_Student\Student.java
+C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\menu\views\Dashboard.java
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\demologin_trenlop_chucnangkhac\view_login.java
+C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\menu\views\FormQuanLySinhVien.java
+C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\menu\model\NhanVien.java
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\Person_Student\hienthisinhvien.java
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\Person_Student\Person.java
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\demologin_trenlop_chucnangkhac\model_login.java
@@ -23,6 +29,9 @@ C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_bu
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\Person_Nhanvien\Ftable_hienthi.java
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\Person_Nhanvien\Person.java
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\createFormByCode\Caculator_Form.java
+C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\menu\code_menu.java
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\MVC\src\model\Nhanvien.java
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\Person_Student_lession\Person.java
 C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\Person_Nhanvien_MVC\Nhanvien.java
+C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\menu\views\FormQuanLyNhanVien.java
+C:\Users\Admin\OneDrive\Documents\decuong\java_nangcao\javanangcao_study\bai1_buoi1\src\main\java\menu\model\SinhVien.java
