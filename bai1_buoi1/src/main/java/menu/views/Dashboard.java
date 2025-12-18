@@ -27,7 +27,7 @@ public class Dashboard {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (e.getActionCommand().equals("QuanLyNhanVien")) {
-                    NhanVienController controller = new NhanVienController();
+                    NhanVienController controller = new NhanVienController();     
                 }
                 if (e.getActionCommand().equals("QuanLySinhVien")) {
                     SinhVienController controller = new SinhVienController();
