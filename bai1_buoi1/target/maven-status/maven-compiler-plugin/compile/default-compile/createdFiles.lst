@@ -42,6 +42,7 @@ Person_Nhanvien\Ftable_hienthi$2.class
 Person_Nhanvien_MVC\NhanvienCotroller$TableClickAction.class
 demologin_trenlop_chucnangkhac\model_login.class
 menu\controllers\SinhVienController$buttonSuaActionPerformed.class
+menu\views\FormQuanLySinhVienPanel.class
 Person_Nhanvien\Fnhap$1.class
 createFormByCode\signUp_Form.class
 menu\code_menu.class
@@ -65,6 +66,7 @@ Person_Nhanvien_MVC\Nhanvien.class
 menu\views\Dashboard.class
 Person_Nhanvien_MVC\NhanvienCotroller$SaveAction.class
 Person_Nhanvien_MVC\NhanvienCotroller.class
+menu\views\FormQuanLyNhanVienPanel.class
 controller\NhanvienCotroller$AddAction.class
 menu\controllers\NhanVienController$buttonSuaActionPerformed.class
 controller\NhanvienCotroller$TableClickAction.class
@@ -72,4 +74,5 @@ menu\controllers\SinhVienController$buttonClearCacheActionPerformed.class
 Person_Nhanvien\Person.class
 Person_Student\Student.class
 menu\controllers\NhanVienController$buttonThemActionPerfomed.class
+menu\views\menutab.class
 Person_Nhanvien\Fnhap$2.class
